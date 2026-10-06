@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["python3", "gcc"]
+
+[start]
+cmd = "python3 bot.py"
